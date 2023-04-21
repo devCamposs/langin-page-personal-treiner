@@ -1,0 +1,138 @@
+body {
+  padding: 20px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: rgb(34, 34, 34);
+  color: white;
+  max-width: 1200px;
+  margin: 0 auto;
+
+
+
+}
+
+a {
+  color: #00B7FF;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#title {
+  flex-direction: column;
+  line-height: 10px;
+}
+
+h1 {
+  font-weight: 200;
+}
+
+.primeira {
+  padding: 5px;
+  height: 70vw;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  background-image: linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)), url(../images/academiaTreino.jpg);
+  width: 100vw;
+  background-position-x: -520px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+li {
+  display: inline-block;
+  margin: 20px;
+}
+
+h2 {
+  font-size: 46px;
+  line-height: 10px;
+  font-weight: 150;
+}
+
+
+span {
+  color: #00B7FF;
+}
+
+p {
+  line-height: 38px;
+  max-width: 500px;
+  font-size: 26px;
+}
+
+/* SEGUNDA SECTION*/
+
+.segunda {
+  margin-top: 2px;
+  display: flex;
+  padding: 0 10px;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vw;
+}
+
+h3 {
+  color: #00B7FF;
+  font-size: 40px;
+  flex-direction: column;
+  line-height: 10px;
+  font-weight: 200;
+}
+
+.border {
+  border: solid 1px #00B7FF;
+  border-radius: 20px;
+  height: 70vw;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+.serviços {
+  color: #00B7FF;
+  font-size: 40px;
+  flex-direction: column;
+  line-height: 10px;
+  font-weight: 200;
+  text-align: center;
+}
+
+.botao {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 10;
+}
+
+
+/* Slide */
+.wrapper{
+  max-width: 1200px;
+}
+
+.wrapper .carousel{
+  white-space: nowrap;
+  font-size: 0px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.carousel img {
+  height: 340px;
+  object-fit: cover;
+  width: cal(100 / 3);
+  margin-left: 14px;
+}
+
+.carousel img:first-child{
+  margin-left: 0px;
+}
